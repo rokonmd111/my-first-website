@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.profile{
+    color: orange;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 70%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("/Image/top-banner.png");
+}
+section{
+    height: 500px;
+}
