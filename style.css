@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .profile{
     color: orange;
 }
@@ -23,4 +29,52 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 50px;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.second-bg{
+    background-image: url(/Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#close{
+    margin-left: 5px;
+}
+.lower-box{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+.ex{
+    background-image: url(/Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#colorborder{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#colorbordersecond{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
